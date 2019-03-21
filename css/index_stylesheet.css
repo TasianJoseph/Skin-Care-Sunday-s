@@ -180,5 +180,5 @@ footer {
 }
 
 #Home {
-  background-image: linear-gradient(255,255,255,0.75),rgba (255,255,255,0.75)), image: FaceMask.jpg;
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://amp.businessinsider.com/images/5b9be81fe199f307428b576f-750-563.jpg');
 }
