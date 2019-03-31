@@ -1,22 +1,24 @@
 body {
     margin: 0;
     margin-top: 50px;
+    font-family: monospace;
 }
 
-header {
+
+
+header * {
     display: flex;
-    position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right:0;
     height: 50px;
     line-height: 50px;
-    background-color: #eee;
+    background-color: #E7B3A8;
 }
 
 header * {
-    display: inline;
-    height: 50px;
+  display: inline;
+  height: 50px;
 }
 
 header ul {
@@ -29,11 +31,11 @@ header li {
 
 section {
     height: 100vh;
-    border: 1px solid black;
+    border: 1px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: centre;
+    align-items: centre;
+    text-align: centre;
 }
 
 footer {
@@ -68,7 +70,7 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 section {
@@ -78,6 +80,7 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: monospace;
 
     background-size: cover;
     background-position: center center;
@@ -93,12 +96,35 @@ section {
 footer {
     text-align: center;
     padding: 50px;
+    font-family: monospace;
+    font-size: 1.5em;
 }
 
 #home h1 {
-    font-size: 3em;
+  font-family: monospace;
+    font-size: 2.5em;
+}
+section h3 {
+    font-size: 2.5em;
 }
 
-#Home {
-    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jfR3rk0BmL-SimyF6ZMmcXG6vuLxYEvEUJDGn8i9n7MNqE2j');
+header a {
+    text-decoration:  inherit;
+    color: white;
 }
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://greatist.com/sites/default/files/skincare.jpg');
+}
+
+#about {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.thrivemarket.com/wp/wp-content/uploads/2015/10/HA4A5772-blog-2000x1086.jpg');
+  }
+
+
+#recipes {
+  background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://assets.thebodyshop.com/medias/8846863269918.jpg?context=images/hd8/hd7/8846863269918.jpg');
+}
+
+#contact {
+  background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jfR3rk0BmL-SimyF6ZMmcXG6vuLxYEvEUJDGn8i9n7MNqE2j');
