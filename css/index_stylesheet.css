@@ -112,7 +112,7 @@ h2 {
 
 p {
   color: black;
-  font-size: 30px;
+  font-size: 15px;
   font-family: calibri;
   text-align: left;
 }
@@ -129,6 +129,7 @@ li {
   color: black;
   text-align:left;
 }
+
 
 body {
     margin: 0;
