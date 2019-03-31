@@ -103,28 +103,24 @@ h1 {
 }
 
 h2 {
-  color: white;
+  color: black;
   font-size: 25px;
   font-family: calibri light;
   margin: auto;
-  background-color: #7C9E39;
   text-align: left;
 }
 
-}
 p {
-  color: white;
+  color: black;
   font-size: 30px;
   font-family: calibri;
-  background-color: #7C9E39;
-  text-align: center;
+  text-align: left;
 }
 
 h3 {
-  color: white;
+  color: black;
   font-size: 25px;
   font-family: calibri;
-  background-color: #969D88;
   text-align: centre;
 
 }
