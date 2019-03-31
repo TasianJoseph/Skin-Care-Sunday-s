@@ -121,9 +121,15 @@ h3 {
   color: black;
   font-size: 25px;
   font-family: calibri;
-  text-align: centre;
+  text-align: left;
 
 }
+
+li {
+  color: black;
+  text-align:left;
+}
+
 body {
     margin: 0;
     margin-top: 50px;
