@@ -1,0 +1,150 @@
+body{
+  font-family: monospace,arial;
+  font-size: 17px;
+  line height:1.5em;
+  margin:0;
+  padding:0;
+}
+img{
+  width:100%;
+}
+
+/* same margins on all sides */
+.container{
+  margin:auto;
+}
+
+.primary-text{
+  color:#e298e5;
+}
+
+
+
+#top-header{
+  border-bottom:4px solid #f9edf9;
+}
+#website-aims{
+    border-bottom:4px solid #f9edf9;
+}
+#acne{
+    border-bottom:4px solid #f9edf9;
+    background: linear-gradient(to bottom, #ffffcc 0%, #ff99cc  100%);
+    /*background-color: no-repeat center center; */
+    border-bottom:4px solid #f9edf9;
+    margin-bottom:30px;
+}
+#oily{
+
+    border-bottom:4px solid #f9edf9;
+}
+#normal{
+  background: linear-gradient(to bottom, #ffffcc 0%, #ff99cc  100%);
+  /*background-color: no-repeat center center; */
+  border-bottom:4px solid #f9edf9;
+  margin-bottom:30px;
+    border-bottom:4px solid #f9edf9;
+}
+
+/* avoids having to change content in html */
+#navbar{
+  text-transform:uppercase;
+}
+
+#navbar li{
+  display:inline;
+  padding-right:20px;
+  list-style:none;
+}
+
+#navbar a{
+  text-decoration:none;
+  color:#804A81;
+}
+
+#navbar li.current a, #navbar a:hover{
+  color:#E1DB56;
+  border-bottom: 4px solid #E1DB56;
+  padding-bottom:3px;
+}
+
+/* SHOWCASE */
+#showcase{
+  background: linear-gradient(to bottom, #ffffcc 0%, #ff99cc  100%);
+  /*background-color: no-repeat center center; */
+  border-bottom:4px solid #f9edf9;
+  margin-bottom:30px;
+}
+
+#showcase .row{
+  height:600px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin:0;
+  padding-bottom:20px;
+}
+
+
+#showcase p{
+  color:#ffffff;
+  margin:0;
+}
+
+#showcase .showcase-content{
+  background:#333;
+  color:#fff;
+  border-radius:90px;
+  padding:40px;
+  opacity:0.9;
+}
+
+#website-aims h2{
+  font-size:35px;
+  margin:0;
+  padding-bottom:10px;
+}
+
+#website-aims p{
+  color:#E1DB56;
+  margin:0;
+  margin-bottom:40px;
+}
+
+#website-aims .fas{
+  font-size:60px;
+  color:#ff99cc;
+}
+
+
+
+#blog{
+  background:#fff;
+  color:#00000;
+  padding:10px 0;
+  border-bottom:4px solid #f9edf9;
+}
+
+#blog h4{
+  text-transform:uppercase;
+  margin-bottom:0;
+}
+
+#blog ul{
+  padding:0;
+  list-style:none;
+  line-height:2em;
+}
+
+#sunkissed{
+      border-bottom:4px solid #f9edf9;
+}
+
+#main-footer{
+  background:#ff99cc;
+  color:#ffffcc;
+}
+#main-footer .fab{
+  font-size:60px;
+  color:#ff99cc;
+}
