@@ -1,136 +1,58 @@
-*/
-
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code,
-del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var,
-b, i,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
-   margin:0;
-   padding:0;
-   border:0;
-   outline:0;
-   font-size:100%;
-   vertical-align:baseline;
-   background:transparent;
-}
-
-body {
-   line-height:1;
-}
-
-article,aside,details,figcaption,figure,
-footer,header,hgroup,menu,nav,section {
-   display:block;
-}
-
-nav ul {
-   list-style:none;
-}
-
-blockquote, q {
-   quotes:none;
-}
-
-blockquote:before, blockquote:after,
-q:before, q:after {
-   content:'';
-   content:none;
-}
-
-a {
-   margin:0;
-   padding:0;
-   font-size:100%;
-   vertical-align:baseline;
-   background:transparent;
-}
-
-(we can change the colours on this)
-ins {
-   background-color:#ff9;
-   color:#000;
-   text-decoration:none;
-}
-
-(we can change the colours on this)
-mark {
-   background-color:#ff9;
-   color:#000;
-   font-style:italic;
-   font-weight:bold;
-}
-
-del {
-   text-decoration: line-through;
-}
-
-abbr[title], dfn[title] {
-   border-bottom:1px dotted;
-   cursor:help;
-}
-
-table {
-   border-collapse:collapse;
-   border-spacing:0;
-}
-
-(we can change the colours)
-hr {
-   display:block;
-   height:1px;
-   border:0;
-   border-top:1px solid #cccccc;
-   margin:1em 0;
-   padding:0;
-}
-
-
-
-h1 {
-  color: black;
-  font-size: 80px;
-  font-family: calibri light;
-  margin: 50px;
-  background-color: #7C9E39;
-  text-align: center;
-}
-
-h2 {
-  color: white;
-  font-size: 25px;
-  font-family: calibri light;
-  margin: auto;
-  background-color: #7C9E39;
-  text-align: left;
-}
-
-}
-p {
-  color: white;
-  font-size: 30px;
-  font-family: calibri;
-  background-color: #7C9E39;
-  text-align: center;
-}
-
-h3 {
-  color: white;
-  font-size: 25px;
-  font-family: calibri;
-  background-color: #969D88;
-  text-align: centre;
-
-}
 body {
     margin: 0;
     margin-top: 50px;
+    font-family: monospace, arial;
+}
+
+
+
+header * {
+    display: flex;
+    top: 0;
+    left: 0;
+    right:0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #E7B3A8;
+}
+
+header * {
+  display: inline;
+}
+
+header ul {
+
+}
+
+header li {
+    margin-left: 15px;
+}
+
+.avatar-img  {
+
+border-radius: 50%;
+
+
+}
+
+section {
+    height: 100vh;
+    border: 1px;
+    display: flex;
+    justify-content: centre;
+    align-items: centre;
+    text-align: centre;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
 }
 
 header {
@@ -139,15 +61,12 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    line-height: 50px;
-    background-color: #F4CF78;
-
+    height: 70px;
+    line-height: 70px;
+    background-color: #E7B3A8;
+    font-family: monospace, arial;
 }
 
-footer {
-  background-color: #7C9E39;
-}
 header * {
     display: inline;
     height: 50px;
@@ -158,9 +77,12 @@ header ul {
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 40px;
 }
 
+button{
+  background-position: right;
+}
 section {
     height: 100vh;
     border: 1px solid black;
@@ -168,13 +90,76 @@ section {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-family: monospace, arial;
+
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+#home .profile-img {
+    width: 300px;
+    border-radius: 50%;
 }
 
-#hero .profile-img {
-    width: 300px;
+#home h1 {
+  font-family: monospace, arial;
+    font-size: 2.5em;
+}
+section h3 {
+    font-size: 2.5em;
+}
+
+header a {
+    text-decoration:  inherit;
+    color: white;
+}
+
+section h3 {
+  font-family: monospace, arial;
+  font-size: 2.5em;
+  color: white;
+}
+
+li {
+  text-align: left;
+}
+
+h4 {
+  text-align: center;
+  font-style: normal;
+  color: #A04515;
+}
+p {
+  text-align: centre;
+}
+h6{
+  text-align: left;
 }
 
 footer {
     text-align: center;
-    padding: 50px;
+    padding: 15px;
+    font-family: monospace, arial;
+    font-size: 1.5em;
+    background-color: #E7B3A8;
+    color: white;
+}
+
+#home {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://greatist.com/sites/default/files/skincare.jpg');
+}
+
+#about-us {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://pre-tend.com/wp-content/uploads/2018/11/Natural-Products-For-Face-Mask-Skin-Care.jpg');
+  }
+
+
+#recipes {
+  background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://assets.thebodyshop.com/medias/8846863269918.jpg?context=images/hd8/hd7/8846863269918.jpg');
+}
+
+#contact {
+  background-image: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7jfR3rk0BmL-SimyF6ZMmcXG6vuLxYEvEUJDGn8i9n7MNqE2j');
 }
