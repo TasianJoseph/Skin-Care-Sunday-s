@@ -7,8 +7,10 @@ body{ text-align: left;
 }
 div { font-size: 30px}
 
-p{ text-align: left;}
-p{ align: left;}
+p{ color:#1E591C;
+margin:0;
+margin-bottom:40px;}
+
 
 .container {  position: relative; }
 
