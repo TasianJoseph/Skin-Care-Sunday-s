@@ -1,0 +1,30 @@
+
+h1 {
+    font-size: 50px
+    }
+body{ text-align: left;
+  color: rgb(134, 45, 89)
+}
+div { font-size: 30px}
+
+p{ text-align: left;}
+p{ align: left;}
+
+.container {  position: relative; }
+
+.container:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-image: url("https://images.unsplash.com/photo-1527904219733-fddc74937915?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+   opacity: 0.5;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+}​
