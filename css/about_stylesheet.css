@@ -28,3 +28,8 @@ p{ align: left;}
     position: relative;
     z-index: 2;
 }​
+#about-header{
+  border-bottom:4px solid #f9edf9;
+  background-color: #0000
+
+}
