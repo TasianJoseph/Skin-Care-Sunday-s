@@ -18,15 +18,21 @@ header * {
 
 header * {
   display: inline;
-  height: 50px;
 }
 
 header ul {
-    padding: 0;
+
 }
 
 header li {
-    margin-left: 20px;
+    margin-left: 15px;
+}
+
+.avatar-img  {
+
+border-radius: 50%;
+
+
 }
 
 section {
@@ -55,8 +61,8 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;
-    line-height: 50px;
+    height: 70px;
+    line-height: 70px;
     background-color: #E7B3A8;
     font-family: monospace, arial;
 }
@@ -71,9 +77,12 @@ header ul {
 }
 
 header li {
-    margin-left: 100px;
+    margin-left: 40px;
 }
 
+button{
+  background-position: right;
+}
 section {
     height: 100vh;
     border: 1px solid black;
@@ -92,14 +101,6 @@ section {
 #home .profile-img {
     width: 300px;
     border-radius: 50%;
-}
-
-footer {
-    text-align: center;
-    padding: 50px;
-    font-family: monospace, arial;
-    font-size: 1.5em;
-    background-color: #E7B3A8;
 }
 
 #home h1 {
@@ -136,12 +137,22 @@ p {
 h6{
   text-align: left;
 }
+
+footer {
+    text-align: center;
+    padding: 15px;
+    font-family: monospace, arial;
+    font-size: 1.5em;
+    background-color: #E7B3A8;
+    color: white;
+}
+
 #home {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://greatist.com/sites/default/files/skincare.jpg');
 }
 
-#about {
-  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://img.thrivemarket.com/wp/wp-content/uploads/2015/10/HA4A5772-blog-2000x1086.jpg');
+#about-us {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://pre-tend.com/wp-content/uploads/2018/11/Natural-Products-For-Face-Mask-Skin-Care.jpg');
   }
 
 
